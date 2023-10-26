@@ -12,7 +12,7 @@ namespace Catalog.API.Data
 
             if (!existProduct)
             {
-                productCollection.InsertManyAsync(GetPreconfiguredProducts())
+                productCollection.InsertManyAsync(GetPreconfiguredProducts());
             }
         }
 
